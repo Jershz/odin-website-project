@@ -49,6 +49,16 @@ ul {
     align-items: center;
 }
 
+.footer {
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -62,6 +72,7 @@ ul {
     align-items: center;
     background-color: #1F2937;
     padding-top: 32px;
+    padding-bottom: 64px;
     gap: 16px;
 }
 
@@ -81,7 +92,7 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #E5E7EB;
+    background-color: #7b7b7c;
 }
 
 .intro-title {
@@ -99,12 +110,17 @@ ul {
     width: 400px;
 }
 
+.intro-image {
+    color: #E5E7EB;
+}
+
 .intro-button {
     background-color: #3882F6;
     padding: 6px 16px;
     border-radius: 8px;
     color: #F9FAF8;
     border: 1px solid black;
+    font-weight: 800;
 }
 
 a {
@@ -121,6 +137,7 @@ a {
     justify-content: center;
     align-items: center;
     padding-top: 32px;
+    padding-bottom: 64px;
 }
 
 .content-top {
@@ -160,6 +177,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
     
 }
 
@@ -175,4 +194,47 @@ a {
     text-align: right;
     font-weight: bold;
     font-size: 24px;
+}
+
+.signup {
+    width: 1000px;
+    height: 300px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 200px;
+    color: #F9FAF8;
+}
+
+.signup-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.signup-left-header {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.signup-button {
+    border-radius: 4px;
+    border: 2px solid #F9FAF8;
+    padding: 6px 16px;
+    background-color: #3882F6;
+    font-weight: 800;
+    text-decoration: none;
+    color: #F9FAF8;
 }
